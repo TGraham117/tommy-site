@@ -15,6 +15,15 @@ export default {
         'TH-black': '#191B22',
         'popping-red': '#CB0909',
       },
+      animation: {
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        }
+      }                
     },
   },
   plugins: [],

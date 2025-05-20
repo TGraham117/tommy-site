@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 150 92.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="150" height="92.4"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Artwork_15" data-name="Artwork 15">
+      <g id="Group_319" data-name="Group 319">
+        <rect id="Rectangle_701" data-name="Rectangle 701" class="cls-2" y="49.62" width="3.9" height="42.11"/>
+        <g class="cls-3">
+          <g id="Group_318" data-name="Group 318">
+            <path id="Path_927" data-name="Path 927" class="cls-2" d="M87.71,73.42v18.35h-3.9v-18.6c0-5.12-3.09-8.28-8.04-8.28s-8.28,3.17-8.28,8.37v18.52h-3.9v-18.36c0-7.15,4.63-12.1,12.18-12.1s11.94,4.87,11.94,12.1"/>
+            <rect id="Rectangle_702" data-name="Rectangle 702" class="cls-2" x="95.43" y="61.23" width="3.9" height="30.5"/>
+            <path id="Path_928" data-name="Path 928" class="cls-2" d="M126.77,63.35v4.3c-2.51-2.16-5.71-3.34-9.01-3.33-4.22,0-6.58,1.95-6.58,4.71s2.92,4.22,7.31,5.6,9.91,2.84,9.91,8.93-4.22,8.85-10.88,8.85c-3.78.07-7.46-1.2-10.4-3.57v-4.62c2.68,2.89,6.45,4.54,10.4,4.55,4.47,0,7.15-2.19,7.15-5.2s-3.17-4.47-7.71-5.93-9.58-3.09-9.58-8.36,4.06-8.61,10.56-8.61c3.21-.06,6.36.88,9.01,2.68"/>
+            <rect id="Rectangle_703" data-name="Rectangle 703" class="cls-2" x="134.49" y="61.23" width="3.9" height="30.5"/>
+            <path id="Path_929" data-name="Path 929" class="cls-2" d="M149.35,91.77v-3.25h0l-1.3,3.25h-.41l-1.22-3.25h-.08v3.25h-.57v-3.9h.98l1.14,2.92,1.14-2.92h.98v3.9h-.65Z"/>
+            <rect id="Rectangle_704" data-name="Rectangle 704" class="cls-2" x="95.43" y="53.52" width="3.9" height="3.87"/>
+            <rect id="Rectangle_705" data-name="Rectangle 705" class="cls-2" x="134.49" y="53.52" width="3.9" height="3.87"/>
+            <path id="Path_930" data-name="Path 930" class="cls-2" d="M144.07,88.44v3.33h-.65v-3.33h-1.22v-.57h3.09v.57h-1.22Z"/>
+            <path id="Path_931" data-name="Path 931" class="cls-2" d="M11.61,80.23v-19h3.9v19.17c0,5.12,3.09,8.28,8.04,8.28s8.28-3.17,8.28-8.28v-19.17h3.9v19c0,7.15-4.63,12.1-12.18,12.1s-11.86-4.95-11.86-12.1"/>
+            <path id="Path_932" data-name="Path 932" class="cls-2" d="M67.49,73.42v18.35h-3.9v-18.6c0-5.12-3.09-8.28-8.04-8.28s-8.28,3.17-8.28,8.36v18.52h-3.81v-18.35c0-7.15,4.63-12.1,12.18-12.1s11.86,4.95,11.86,12.1"/>
+            <path id="Path_933" data-name="Path 933" class="cls-2" d="M116.87,28.18c-7.78-.02-14.96,4.18-18.76,10.96C92.27,12.37,65.83-4.61,39.06,1.23,24.16,4.47,11.59,14.38,4.95,28.1,13.48,13.64,30.29,3.9,49.62,3.9c25.29,0,45.8,20.51,45.8,45.8h0s3.9,0,3.9,0c0-9.73,7.9-17.62,17.63-17.61,9.73,0,17.61,7.89,17.61,17.61h3.9c0-11.84-9.6-21.44-21.44-21.44h0"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
