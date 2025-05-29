@@ -13,8 +13,16 @@
     <section class="h-dvh">
       <div class="ml-8 flex items-center justify-center h-5/6">
       <h1 class="text-9xl font-frittomisto">Hi there, I'm Tom!</h1>
-      <div class="mt-auto">
-        <img class="max-h-[40rem]" src="./images/Tommy-G-cutout.png">
+      <div class="mt-auto absolute bottom-[16.6%] right-0">
+        <img class=" h-[clamp(18rem,30vw,28rem)]
+        sm:h-[clamp(20rem,25vw,32rem)]
+        md:h-[clamp(22rem,22vw,36rem)]
+        lg:h-[clamp(24rem,20vw,40rem)]       
+        w-auto              
+        object-cover          
+        transition-all        
+        duration-300         
+        ease-in-out" src="./images/Tommy-G-cutout.png" alt="Tommy G">
       </div>
       </div>
       <div x-data="{}"
@@ -78,7 +86,7 @@
     </div>
     </section>
 
-    <section class="h-dvh bg-static-grey text-white flex items-center wrapper z-10 relative overflow-y-hidden">
+    <section class="h-dvh bg-static-grey text-white flex items-center wrapper z-10 relative overflow-hidden justify-center">
       <div class="max-w-screen-2xl mx-8 z-50 w-full">
         <div class="grid grid-cols-6 gap-x-12"> 
           <div class="col-span-3">
@@ -110,7 +118,7 @@
       <div class="grain"></div>
     </section>
     
-    <section class="h-dvh bg-static-grey text-white flex items-center wrapper z-10 relative overflow-y-hidden">
+    <section class="h-dvh bg-static-grey text-white flex items-center wrapper z-10 relative overflow-hidden justify-center">
       <div class="max-w-screen-2xl mx-8 z-50 w-full">
         <div class="max-w-screen-md text-center m-auto">
           <h2 class="text-lg uppercase text-TH-red font-light">Snapshot of projects</h2>
