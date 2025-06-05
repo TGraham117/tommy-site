@@ -72,3 +72,14 @@ body {
     transform: translate(-10%, 10%);
 }
 }
+
+.swipe-section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.swipe-section .panel {
+  position: absolute;
+}

@@ -8,9 +8,10 @@
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/src/index.css" />
     <link rel="stylesheet" href="https://use.typekit.net/snr8aja.css">
+    
   </head>
   <body class="bg-white text-TH-black font-sans">
-    <section class="h-dvh">
+    <section id="hero-section" class="h-dvh">
       <div class="ml-8 flex items-center justify-center h-5/6">
       <h1 class="text-9xl font-frittomisto">Hi there, I'm Tom!</h1>
       <div class="mt-auto absolute bottom-[16.6%] right-0">
@@ -86,7 +87,9 @@
     </div>
     </section>
 
-    <section class="h-dvh bg-static-grey text-white flex items-center wrapper z-10 relative overflow-hidden justify-center">
+<div class="swipe-section">
+
+    <section id="section-2" class="panel h-dvh bg-static-grey text-white flex items-center wrapper z-10 relative overflow-hidden justify-center w-full">
       <div class="max-w-screen-2xl mx-8 z-50 w-full">
         <div class="grid grid-cols-6 gap-x-12"> 
           <div class="col-span-3">
@@ -118,22 +121,24 @@
       <div class="grain"></div>
     </section>
     
-    <section class="h-dvh bg-static-grey text-white flex items-center wrapper z-10 relative overflow-hidden justify-center">
+    <section id="section-3" class="panel h-dvh bg-static-grey text-white flex items-center wrapper z-10 relative overflow-hidden justify-center w-full">
       <div class="max-w-screen-2xl mx-8 z-50 w-full">
         <div class="max-w-screen-md text-center m-auto">
           <h2 class="text-lg uppercase text-TH-red font-light">Snapshot of projects</h2>
-          <h3 class="text-2xl text-balance text-TH-black font-bold mt-2">A few projects that I am fortunate enough to have been a part of.</h3>
+          <h3 class="text-2xl text-balance text-TH-black font-bold mt-2">A few projects that I am proud to have been a part of.</h3>
           <h4 class="text-lg text-TH-black font-light mt-4">Some are still ongoing....</h4>
         </div>
       </div>
       <div class="grain"></div>
     </section>
     
-    <section class="h-dvh bg-red-500 text-white flex items-center justify-center">
+    <section id="section-4" class="panel h-dvh bg-red-500 text-white flex items-center justify-center w-full">
       <h1 class="text-4xl font-bold">Section 3</h1>
     </section>
-    
-
+</div>
+   <section id="end">
+    <p class="text-center">Done</p>
+   </section>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
