@@ -1,5 +1,7 @@
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import SplitText from "gsap/SplitText";
+
 
 
 /* Whole site snapping (fake) scroll animation */
@@ -76,12 +78,34 @@ ScrollTrigger.create({
 
 
 /* Function to open the text box with the light */
-// const light = document.querySelector(".light-contain");
-// const additionalText = document.querySelector(".additional-text");
+ const light = document.querySelector(".light-contain");
+ const additionalText = document.querySelector(".additional-text");
+ light.addEventListener("click", () => {
+   additionalText.classList.toggle("hidden");
+   additionalText.classList.toggle("opacity-0");
+ });
 
-// light.addEventListener("click", () => {
-//   additionalText.classList.toggle("hidden");
-//   additionalText.classList.toggle("opacity-0");
-// });
 
+/* Animate Text */
+gsap.registerPlugin(SplitText);
+
+let split, animation;
+document.querySelector("#devtext").addEventListener("hover", () => {
+  animation && animation.revert();
+  animation = gsap.from(split.devtext, {
+    x: 150,
+    opacity: 0,
+    duration: 0.7, 
+    ease: "power4",
+    stagger: 0.04
+  })
+});
+
+function setup() {
+  split && split.revert();
+  animation && animation.revert();
+  split = SplitText.create(".dev-content", {type:"devtext"});
+}
+setup();
+window.addEventListener("resize", setup);
 
