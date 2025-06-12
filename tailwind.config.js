@@ -15,6 +15,13 @@ export default {
         'TH-black': '#191B22',
         'popping-red': '#CB0909',
       },
+      screens: {
+        sm: "40rem",
+        md: "53.25rem",
+        lg: "64rem",
+        xl: "83rem",
+        "2xl": "96rem",
+      },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
       },

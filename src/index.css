@@ -74,12 +74,25 @@ body {
 }
 
 .swipe-section {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
+  @apply lg:relative lg:h-dvh lg:w-full lg:overflow-hidden;
 }
 
 .swipe-section .panel {
-  position: absolute;
+  @apply lg:absolute;
 }
+
+
+@media (max-width: 1023px){
+  #display-mobile{
+    display: block!important;
+    opacity: 1!important;
+  }
+} 
+
+
+/* Client BGs */
+
+.ams-bg{
+  background-image:linear-gradient(135deg, #03305db8 0%, #0b619fbd 100%), url(https://admedsol.com/wp-content/uploads/2023/09/liquifix.jpg);
+}
+
