@@ -7,6 +7,17 @@ body {
   @apply font-sans;
 }
 
+.button{
+  @apply  hover:bg-opacity-85 transition-opacity ease-in-out py-2 px-4 text-lg font-bold rounded-md block;
+}
+.button-white{
+  @apply bg-white text-TH-black;
+}
+
+.button-big-red{
+  @apply bg-[#CB0909] text-white !py-4 !px-8 mt-6;
+}
+
 .wrapper .grain {
   top: -100%;
   left: -100%;
@@ -93,6 +104,15 @@ body {
 /* Client BGs */
 
 .ams-bg{
-  background-image:linear-gradient(135deg, #03305db8 0%, #0b619fbd 100%), url(https://admedsol.com/wp-content/uploads/2023/09/liquifix.jpg);
+  background-image:linear-gradient(135deg, #03305d 0%, #0b619fd4 100%), url(https://admedsol.com/wp-content/uploads/2023/09/liquifix.jpg);
 }
 
+.confluence-bg{
+  background: #003665;
+  background: radial-gradient(0% 100% at 0% 100% in srgb, rgb(0, 57, 104) 0%, rgba(0, 57, 104, 0) 50%), radial-gradient(100% 50% at 0% 0% in srgb, rgb(0, 81, 84) 0%, rgba(72, 123, 129, 0) 100%), radial-gradient(100% 50% at 100% 0% in srgb, #005154 0%, rgba(0, 81, 84, 0) 100%), radial-gradient(100% 100% at 100% 0% in srgb, #005154 0%, rgba(72, 123, 129, 0) 100%), var(--ohio-blue, #003968);
+}
+
+.academy-bg{
+  background: rgb(3, 48, 93);
+  background: linear-gradient(180deg, #031e45 0%, #03305d 100%);
+}
