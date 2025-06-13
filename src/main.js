@@ -3,6 +3,38 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import SplitText from "gsap/SplitText";
 
 
+/* Allow menu scroll */
+// let anchorScrollInProgress = false;
+
+
+// window.addEventListener("DOMContentLoaded", () => {
+//   document.querySelectorAll(".inner-header a[href^='#']").forEach(link => {
+//     link.addEventListener("click", (e) => {
+//       const targetId = link.getAttribute("href");
+//       const targetEl = document.querySelector(targetId);
+//       if (!targetEl) return;
+  
+//       e.preventDefault();
+//       anchorScrollInProgress = true;
+  
+//       // Temporarily disable observer
+//       if (typeof intentObserver !== "undefined") {
+//         intentObserver.disable();
+//       }
+  
+//       // Scroll smoothly
+//       const y = targetEl.getBoundingClientRect().top + window.scrollY;
+//       window.scrollTo({ top: y, behavior: "smooth" });
+  
+//       // Re-enable snapping logic
+//       setTimeout(() => {
+//         anchorScrollInProgress = false;
+//         intentObserver?.enable();
+//       }, 1200);
+//     });
+//   });  
+// });
+
 
 /* Whole site snapping (fake) scroll animation */
 if (window.innerWidth >= 1024) {
@@ -22,6 +54,8 @@ if (window.innerWidth >= 1024) {
     tolerance: 10,
     preventDefault: true,
     onEnable(self) {
+      // if (anchorScrollInProgress) return; // ⛔ Don't restore scroll if it's from menu click
+
       allowScroll = false;
       scrollTimeout.restart(true);
       let savedScroll = self.scrollY();
@@ -50,6 +84,7 @@ if (window.innerWidth >= 1024) {
   }
 
   ScrollTrigger.create({
+    id: "swipe-pin",
     trigger: ".swipe-section",
     pin: true,
     start: "top top",
