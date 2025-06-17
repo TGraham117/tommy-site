@@ -23,11 +23,20 @@
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
     <link rel="stylesheet" href="https://use.typekit.net/snr8aja.css">
     
-    <script type="module" crossorigin src="./assets/index-D8W7hId7.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CF5yJBXN.css">
+    <script type="module" crossorigin src="./assets/index-CWDWACWa.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CtuEsUay.css">
   </head>
   <body class="bg-white text-TH-black font-sans">
-    <section id="hero-section" class="h-dvh">
+    <header class="header-outer absolute flex items-start h-full top-[0] w-full justify-around z-50 mt-16">
+      <div class="sticky top-[0px] ">
+        <div class="inner-header bg-TH-black flex justify-between items-center py-4 px-8 rounded-lg gap-6">
+          <a class="text-base text-white opacity-90 hover:opacity-100 font-bold" href="https://www.linkedin.com/in/tom-graham-5681aa246/" target="_blank">LinkedIn</a>
+          <a class="text-base text-white opacity-90 hover:opacity-100 font-bold" href="https://lumisi.com/" target="_blank">Lumisi</a>
+          <a class="text-base text-white opacity-90 hover:opacity-100 font-bold" href="mailto:tommy_graham@icloud.com?subject=Contact link">Contact</a>
+        </div>
+      </div>
+    </header>
+    <section id="home" class="h-dvh">
       <div class="lg:ml-8 flex items-center justify-center h-5/6">
       <h1 class="lg:text-9xl md:text-7xl text-5xl font-frittomisto">Hi there, I'm Tom!</h1>
       <div class="mt-auto absolute bottom-[16.6%] right-0">
@@ -105,7 +114,7 @@
 
 <div class="swipe-section">
 
-    <section id="section-2" class="panel lg:h-dvh h-full bg-static-grey text-white flex items-center wrapper z-10 relative overflow-hidden justify-center w-full">
+    <section id="about" class="panel lg:h-dvh h-full bg-static-grey text-white flex items-center wrapper z-10 relative overflow-hidden justify-center w-full">
       <div class="max-w-screen-2xl mx-8 z-50 w-full lg:h-auto h-full relative lg:my-0 my-32">
         <div class="grid lg:grid-cols-6 grid-cols-1 lg:gap-x-12 lg:gap-y-0 gap-y-8 relative lg:z-index-1 -z-10"> 
           <div class="lg:col-span-3 col-span-1">
@@ -137,7 +146,7 @@
       <div class="grain"></div>
     </section>
     
-    <section id="section-3" class="panel lg:h-dvh h-full bg-static-grey text-white flex items-center wrapper z-10 relative overflow-hidden justify-center w-full">
+    <section id="projects" class="panel lg:h-dvh h-full bg-static-grey text-white flex items-center wrapper z-10 relative overflow-hidden justify-center w-full">
       <div class="max-w-screen-2xl mx-8 z-50 w-full lg:my-0 my-32">
         <div class="max-w-screen-md text-center m-auto">
           <h2 class="text-lg uppercase text-TH-red font-light">Snapshot of projects</h2>
@@ -150,14 +159,14 @@
     
     <section id="section-4" class="panel lg:h-dvh h-full bg-static-grey flex items-center wrapper z-10 relative overflow-hidden justify-center w-full">
       <div class="max-w-screen-2xl mx-8 z-50 w-full lg:my-0 mt-32 mb-24">
-        <div class="ams-bg flex items-end justify-between lg:min-h-[32rem] min-h-32 rounded-xl lg:py-16 py-8 lg:px-8 px-6">
-          <div>
+        <div class="ams-bg flex lg:flex-row flex-col-reverse items-end justify-between lg:min-h-[32rem] min-h-32 rounded-xl lg:py-16 py-8 lg:px-8 px-6 lg:gap-0 gap-6">
+          <div class="lg:w-auto w-full">
             <h4 class="text-2xl text-white font-bold">ADMEDSOL</h4>
             <h5 class="text-xl text-white font-light mt-2 mb-6">A world-leading specialist in tissue-healing technologies.</h5>
             <button><a class="button button-white bg-white" href="https://admedsol.com/" target="_blank">Visit them</a></button>
           </div>
           <div class="flex justify-end">
-            <img class="lg:max-w-[30rem] lg:w-auto w-52" alt="AMS Fix8 device" src="https://admedsol.com/wp-content/uploads/2023/09/fix8-angle-both.png">
+            <img class="lg:max-w-[30rem] max-w-full w-auto" alt="AMS Fix8 device" src="https://admedsol.com/wp-content/uploads/2023/09/fix8-angle-both.png">
           </div>
         </div>
       </div>
@@ -166,18 +175,18 @@
 
     <section id="section-5" class="panel lg:h-dvh h-full bg-static-grey flex items-center wrapper z-10 relative overflow-hidden justify-center w-full">
       <div class="max-w-screen-2xl mx-8 z-50 w-full lg:my-0 mb-24">
-        <div class="confluence-bg relative w-full flex items-end justify-between lg:min-h-[32rem] min-h-32 rounded-xl lg:py-16 py-8 lg:px-8 px-6 overflow-hidden">
+        <div class="confluence-bg relative w-full flex lg:flex-row flex-col-reverse items-end justify-between lg:min-h-[32rem] min-h-32 rounded-xl lg:py-16 py-8 lg:px-8 px-6 overflow-hidden lg:gap-0 gap-6">
           <div class="absolute top-0 left-0 h-full w-full right-0 bg-img">
             <img alt="Confluence Buildings" src="./images/confluence-buildings-image.webp" class="h-full w-full object-cover opacity-10 mix-blend-soft-light">
           </div>
           <div class="relative">
             <h4 class="text-2xl text-white font-bold">CONFLUENCE</h4>
             <h5 class="text-xl text-white font-light mt-2 mb-4">A global leader in data-driven investment management solutions</h5>
-            <p class="text-base text-white font-light text-balance mb-6">My team & I are currently working on Confluence's new site, but in the meantime, here's their current site (which we also built).</p>
+            <p class="text-base text-white font-light text-pretty mb-6">My team & I are currently working on Confluence's new site, but in the meantime, here's their current site (which we also built).</p>
             <button><a class="button button-white" href="https://www.confluence.com/" target="_blank">Take a look</a></button>
           </div>
           <div class="flex justify-end">
-            <img class="lg:max-w-[30rem] lg:w-auto w-52" alt="Confluence laptop" src="./images/confluence-laptop.webp">
+            <img class="lg:max-w-[30rem] max-w-full w-auto" alt="Confluence laptop" src="./images/confluence-laptop.webp">
           </div>
         </div>
       </div>
@@ -186,14 +195,14 @@
 
     <section id="section-6" class="panel lg:h-dvh h-full bg-static-grey flex items-center wrapper z-10 relative overflow-hidden justify-center w-full">
       <div class="max-w-screen-2xl mx-8 z-50 w-full lg:my-0 mb-24">
-        <div class="academy-bg w-full flex items-end justify-between lg:min-h-[32rem] min-h-32 rounded-xl lg:py-16 py-8 lg:px-8 px-6 overflow-hidden">
-          <div>
+        <div class="academy-bg w-full flex lg:flex-row flex-col-reverse items-end justify-between lg:min-h-[32rem] min-h-32 rounded-xl lg:py-16 py-8 lg:px-8 px-6 overflow-hidden lg:gap-0 gap-6">
+          <div class="lg:w-auto w-full">
             <h4 class="text-2xl text-white font-bold">ACTIVHEAL ACADEMY</h4>
             <h5 class="text-xl text-white font-light mt-2 mb-6 text-balance">Providing woundcare education, helping you provide the best possible care</h5>
             <button><a class="button button-white" href="https://academy.activheal.com/what-is-the-academy/" target="_blank">Learn more</a></button>
           </div>
           <div class="flex justify-end">
-            <img class="lg:max-w-[30rem] lg:w-auto w-52" alt="Confluence laptop" src="./images/Activheal-academy-laptop.webp">
+            <img class="lg:max-w-[30rem] max-w-full w-auto" alt="Confluence laptop" src="./images/Activheal-academy-laptop.webp">
           </div>
         </div>
       </div>
@@ -205,7 +214,7 @@
         <div class="max-w-screen-md text-center m-auto">
           <h2 class="text-lg uppercase text-TH-red font-light">Let's Talk</h2>
           <h3 class="text-2xl text-balance text-TH-black font-bold mt-2">If you have any vacancies in the London area, I'd love to hear from you!</h3>
-          <button><a class="button button-big-red" href="mailto:tommy_graham@icloud.com?subject=Contact me CTA" >Contact me</a></button>
+          <button><a class="button button-big-red" href="mailto:tommy_graham@icloud.com?subject=Contact link" >Contact me</a></button>
         </div>
       </div>
       <div class="grain"></div>
@@ -213,7 +222,7 @@
 
 
 </div>
-   <section id="end" class="bg-static-grey text-white flex items-center wrapper z-10 relative overflow-hidden justify-center w-full">
+   <section id="contact" class="bg-static-grey text-white flex items-center wrapper z-10 relative overflow-hidden justify-center w-full">
     <div class="max-w-screen-2xl mx-8 z-50 w-full my-12">
       <div class="max-w-screen-md m-auto justify-center flex gap-16">
         <a class="text-[#CB0909] text-2xl font-bold" href="https://lumisi.com/" target="_blank">Lumisi</a>
