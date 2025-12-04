@@ -120,3 +120,8 @@ body {
   background: rgb(3, 48, 93);
   background: linear-gradient(180deg, #031e45 0%, #03305d 100%);
 }
+
+.brandhub-bg{
+  background: rgb(22, 39, 49);
+  background: linear-gradient(180deg, #162731 0%, #132027 100%);
+}
